@@ -1,0 +1,111 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-color: rgba(8, 8, 8, 0.733);
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    border-style: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.699);
+
+}
+#nav{
+    background: linear-gradient(90deg, rgba(39,246,29,1) 0%, rgba(1,9,10,1) 100%);
+    border-radius: 10px 1px 1px 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+h1{
+    background-color :rgb(211, 211, 211);
+    border-radius: 60px 60px 10px 10px;
+    font-size: 30px;
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    width: 340px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#usuario,#insertUsuario{
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+#senha,#insertSenha{
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+}
+
+.inputs{
+    background-color: rgba(255, 255, 255, 0.61);
+    outline:none;
+    text-align: center;
+    width: 240px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 10px rgba(0, 14, 75, 0.822);
+}
+
+#botaoLogar{
+    position: absolute;
+    top: 65%;
+    left: 33%;
+    outline: none;
+}
+#botaoCadastrar{
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    
+
+}
+#botaoLogar:hover,#botaoCadastrar:hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    opacity: 50;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.63);
+}
+
+.botoes{
+    background-color: rgba(231, 231, 231, 0.842);
+    border-style: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+    box-shadow:  0 0 4px rgb(4, 37, 48);
+    font-size: 15px;
+}
+
+a{
+    position: absolute;
+    top: 91%;
+    left: 35%;
+}
+.as{
+    position: relative;
+    top: 1px;
+    left: 0px;
+    color: seagreen;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 10px;
+    
+    text-decoration: none;
+}
+.as:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    opacity: 100;
+    box-shadow: 0px 2px 10px rgba(4, 112, 40, 0.63);
+    border-radius: 20px;
+}

@@ -1,0 +1,131 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-color: rgba(8, 8, 8, 0.733);
+}
+
+#nav{
+    background: linear-gradient(90deg, rgba(39,246,29,1) 0%, rgba(1,9,10,1) 100%);
+    border-radius: 10px 1px 1px 10px;
+    padding: 10px;
+    text-align: right;
+}
+a{
+    color: seagreen;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    opacity: 100;
+    box-shadow: 0px 2px 10px rgba(4, 112, 40, 0.63);
+}
+
+#sup{
+    position: absolute;
+    top: 13%;
+    left: 37%;
+
+}
+
+#box{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    border-style: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.699);
+
+}
+
+h1{
+    background-color :rgb(211, 211, 211);
+    border-radius: 60px 60px 10px 10px;
+    font-size: 30px;
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    width: 340px;
+    text-align: center;
+}
+input{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    padding: 5px;
+    outline: none;
+    appearance: textfield;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+button{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline:none;
+
+}
+#incluir{
+    position: relative;
+    top: 30%;
+    left:-50%;
+}
+#salvar{
+    position: relative;
+    top: 12%;
+    left: 55%;
+}
+
+
+#incluir:hover,#salvar:hover, #editarProduto:hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    opacity: 100;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.63);
+}
+
+
+table{
+    width: 300px;
+    background-color: rgb(138, 138, 138);
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    border-style: groove;
+    border-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    padding: 1px;
+    width: 340px;
+}
+td{
+
+    
+    border-width: 1px;
+    background-color: azure;
+    box-shadow: inset rgba(0, 0, 0, 0.171);
+    border-radius: 2px;
+    text-align: center;
+    
+}
+th{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
